@@ -44,6 +44,7 @@ public class HomeController {
             }
         }
         model.addAttribute("discussPosts", discussPosts);
+        /*返回页面*/
         return "/index";
     }
 
